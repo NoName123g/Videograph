@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url(fonts/Raleway-Regular.woff2);
+    font-weight: normal;
+    font-size: medium;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Raleway-Regular";
+}
+
+.header {
+    background-color: #E1EDE6;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 165px;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 33px 0px 32px 0px;
+}
+
+.header_logo {
+    width: 35px;
+    height: 35px;
+}
+
+.header_logo_name {
+    color: #598D66;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+}
+
+.nav_list_elem {
+    color: #2C2D35;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header_shop_icon {
+    width: 22px;
+    height: 22px;
+}
