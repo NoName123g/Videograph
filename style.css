@@ -112,6 +112,10 @@ body {
     font-size: 20px;
 }
 
+.shopping_section {
+    margin: 70px 0;
+}
+
 .shopping_section_head {
     display: flex;
     justify-content: space-between;
@@ -208,3 +212,45 @@ body {
     font-weight: 500;
 }
 
+.promo_section {
+    margin-bottom: 70px;
+    background-image: url(image/promo_section_background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+}
+
+.promo_section_top {
+    display: flex;
+    gap: 20px;
+}
+
+.promo_section_logo {
+    width: 80px;
+    height: 80px;
+}
+
+.promo_section_title {
+    color: #F4F6F5;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.promo_section_text {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.promo_section_button {
+    border: none;
+    padding: 20px 60px;
+    background-color: #EEDB6D;
+}
+
+.promo_section_button_text {
+    color: #2C2D35;
+    font-size: 20px;
+    font-weight: 500;
+}
