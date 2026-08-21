@@ -101,7 +101,7 @@ body {
     cursor: pointer;
 }
 
-.hero_button:hover {
+.hover_button:hover {
     color: white;
     background-color: #598D66;
 }
@@ -111,3 +111,100 @@ body {
     font-weight: 500;
     font-size: 20px;
 }
+
+.shopping_section_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopping_section_title {
+    color: #2C2D35;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.shopping_section_head_list {
+    display: flex;
+    gap: 32px;
+}
+
+.shopping_section_head_list_elem {
+    list-style: none;
+}
+
+.shopping_section_head_button {
+    display: flex;
+    border: 0;
+    border-radius: 20px;
+    background-color: #D4E8D9;
+}
+
+.shopping_section_head_button_text {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.shopping_section_body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.shopping_section_card {
+    display: flex;
+    flex-direction: column;
+    background-color: #E1EDE6;
+    padding: 20px 20px 30px 20px;
+}
+
+.card_img {
+    width: 310px;
+    height: 422px;
+}
+
+.card_author {
+    margin: 20px 0px 10px 0px;
+    color: #86928B;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card_name {
+    margin: 0 0 8px 0;
+    color: #2C2D35;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card_description {
+    margin-bottom: 30px;
+    color: #2C2D35;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card_price {
+    margin-bottom: 20px;
+    color: #598D66;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card_button {
+    display: flex;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #598D66;
+    background-color: #E1EDE6;
+    cursor: pointer;
+}
+
+.card_button_text {
+    color: #598D66;
+    font-size: 20px;
+    font-weight: 500;
+}
+
