@@ -1,0 +1,121 @@
+body {
+    box-sizing: border-box;
+    font-family: Raleway;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #E1EDE6;
+    padding: 33px 0 32px 0;
+}
+
+.header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.header-logo-text {
+    color: #598D66;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+}
+
+.header-list-link {
+    text-decoration: none;
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hero {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bird-png {
+    flex: 0 1 540px;
+    width: 100%;
+    max-width: 540px;
+    min-width: 0;
+    height: auto;
+    object-fit: contain;
+}
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 540px;
+    gap: 60px;
+}
+
+.hero-right-top {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-title {
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.hero-title .bold-text {
+    color: #598D66;
+}
+
+.hero-text {
+    color: #86928B;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.hero-button {
+    border: 1px solid #598D66;
+    background-color: white;
+    padding: 20px 60px;
+}
+
+.hero-button-text {
+    color: #598D66;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+}
