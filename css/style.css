@@ -17,6 +17,10 @@ p {
     margin: 0;
 }
 
+.container {
+    padding: 0 20px;
+}
+
 .wrapper {
     max-width: 1440px;
     display: flex;
@@ -34,6 +38,8 @@ p {
 .header {
     display: flex;
     justify-content: space-around;
+    position: sticky;
+    top: 0;
     background-color: #E1EDE6;
     padding: 33px 0 32px 0;
     width: 1440px;
@@ -181,6 +187,21 @@ p {
     background-color: #E1EDE6;
 }
 
+.card-body {
+    width: 100%;
+    height: 100%;
+}
+
+.card-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    gap: 20px;
+}
+
 .card-img {
     width: 100%;
 }
@@ -203,7 +224,6 @@ p {
     color: #2C2D35;
     font-size: 18px;
     font-weight: 500;
-    margin-bottom: 30px;
 }
 
 .card-price {
@@ -225,3 +245,104 @@ p {
     flex-shrink: 1;
     background-color: #E1EDE6;
 }
+
+.promo {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 100%;
+    background-image: url("../image/promo-background.png");
+    height: 500px;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+}
+
+.promo-top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 70px;
+    padding-top: 70px;
+}
+
+.promo-bottom {
+    padding: 0 70px;
+}
+
+.promo-title-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    max-width: 501px;
+}
+
+.promo-text-container {
+    max-width: 540px;
+}
+
+.promo-title-text {
+    color: #F4F6F5;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.promo-text {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.promo-button {
+    background: #EEDB6D;
+    padding: 20px 60px;
+    color: #2C2D35;
+    border: none;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 70px;
+}
+
+.team-img {
+    flex: 0 1 445px;
+    width: 100%;
+    max-width: 445px;
+    height: auto;
+    object-fit: contain;
+}
+
+.team-right {
+    display: flex;
+    flex-shrink: 2;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    padding-top: 30px;
+}
+
+.team-title {
+    color: #2C2D35;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.team-text {
+    color: #2C2D35;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.team-avatars {
+    display: flex;
+    gap: 30px;
+}
+
