@@ -346,3 +346,67 @@ p {
     gap: 30px;
 }
 
+.footer {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    background-color: #E1EDE6;
+    width: 100%;
+    padding: 23px 0;
+}
+
+.footer-links {
+    display: flex;
+    gap: clamp(10px, 6vw, 115px);
+}
+
+.footer-links-left {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.footer-title {
+    display: flex;
+    gap: 8px;
+}
+
+.footer-main-text {
+    color: #2C2D35;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer-text {
+    color: #86928B;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer-links-right {
+    display: flex;
+    gap: 60px;
+}
+
+.footer-links-block {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.media-links {
+    display: flex;
+    gap: 30px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
