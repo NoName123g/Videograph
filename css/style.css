@@ -53,6 +53,9 @@ p {
         flex-direction: column;
         padding: 16px 10px;
     }
+    @media (max-width: 320px) {
+        padding: 0;
+    }
 }
 
 .header-left {
@@ -63,6 +66,10 @@ p {
     @media (max-width: 510px) {
         padding-bottom: 16px;
     }
+    @media (max-width: 320px) {
+        background-color: white;
+        padding: 17px 15px;
+    }
 }
 
 .header-right {
@@ -70,6 +77,11 @@ p {
         padding-top: 16px;
         border-top: 1px solid #C3D1C6;
         width: 100%;
+    }
+    @media (max-width: 320px) {
+        border: none;
+        padding: 15px;
+        box-sizing: border-box;
     }
 }
 
@@ -92,6 +104,12 @@ p {
     }
 }
 
+.header-more-logo {
+    @media (min-width: 321px) {
+        display: none;
+    }
+}
+
 .header-list-link {
     text-decoration: none;
     color: #2C2D35;
@@ -102,12 +120,21 @@ p {
     } 
 }
 
+.header-list-text {
+    @media (max-width: 320px) {
+        display: none;
+    }
+}
+
 .hero {
     display: flex;
     gap: 30px;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    @media (max-width: 320px) {
+        gap: initial;
+    }
 }
 
 .bird-png {
@@ -117,6 +144,9 @@ p {
     min-width: 0;
     height: auto;
     object-fit: contain;
+    @media (max-width: 320px) {
+        display: none;
+    }
 }
 
 .hero-right {
@@ -131,6 +161,9 @@ p {
     @media (max-width: 690px) {
         gap: 10px;
         max-width: 285px;
+    }
+    @media (max-width: 320px) {
+        gap: 40px;
     }
 }
 
@@ -155,6 +188,9 @@ p {
     @media (max-width: 510px) {
         font-size: 36px;
     }
+    @media (max-width: 320px) {
+        font-size: 30px;
+    }
 }
 
 .hero-title .bold-text {
@@ -168,6 +204,9 @@ p {
     line-height: 150%;
     @media (max-width: 510px) {
         font-size: 16px;   
+    }
+    @media (max-width: 320px) {
+        font-size: 14px;
     }
 }
 
@@ -222,6 +261,9 @@ p {
         max-width: 300px;
         overflow-x: auto;
         white-space: nowrap;
+    }
+    @media (max-width: 320px) {
+        gap: 20px;
     }
 }
 
@@ -366,6 +408,9 @@ p {
     }
     @media (max-width: 510px) {
         gap: 20px;
+    }
+    @media (max-width: 320px) {
+        gap: 30px;
     }
 }
 
