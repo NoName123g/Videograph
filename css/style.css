@@ -96,6 +96,9 @@ p {
     align-items: center;
     list-style: none;
     gap: 60px;
+    @media (max-width: 630px) {
+        gap: 32px;
+    }
     @media (max-width: 510px) {
         gap: initial;
         justify-content: space-between;
