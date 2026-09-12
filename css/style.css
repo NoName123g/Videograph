@@ -615,12 +615,23 @@ p {
     @media (max-width: 510px) {
         display:inline-block;
     }
+    @media (max-width:320px) {
+        display: none;
+    }
 }
 
 .footer-main-text {
     color: #2C2D35;
     font-size: 20px;
     font-weight: 500;
+}
+
+.small-text {
+    color: #2C2D35;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .footer-text {
@@ -630,9 +641,16 @@ p {
 }
 
 .footer-links {
+    gap: 10px;
     @media (max-width: 690px) {
         display: flex;
         flex-direction: column;
+    }
+}
+
+.footer-number-center {
+    @media (min-width:321px) {
+        display: none;
     }
 }
 
@@ -647,6 +665,11 @@ p {
     }
     @media (max-width: 510px) {
         max-width: 100%;
+    }
+    @media (max-width:320px) {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
     }
 }
 
